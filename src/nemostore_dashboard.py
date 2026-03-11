@@ -55,7 +55,7 @@ def load_data():
         db_path = 'e:/FCICB6-PROJ2/nemostore/nemostore.db'
     
     current_path = os.path.dirname(os.path.abspath(__file__))
-    db_path = os.path.join(os.path.dirname(current_path), "데이터", "nemostore.db")
+    db_path = os.path.join(os.path.dirname(current_path), "data", "nemostore.db")
     conn.close()
     
     # 층수 및 구 데이터 전처리
@@ -225,4 +225,5 @@ with tab4:
 
 st.sidebar.markdown("---")
 st.sidebar.caption("© 2026 Nemostore Advanced Analytics Dashboard")
+
 
